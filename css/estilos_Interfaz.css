@@ -1,0 +1,115 @@
+
+.menu-horizontal{
+	position:relative;
+	top:30px;
+	left:400px;
+	width:620px;
+	height:45px;
+	background:red;
+}
+
+
+.menu-horizontal li a{
+	text-decoration:none;
+	padding:20px;
+	font-size:17px;
+	color:black;
+} 
+
+.menu-horizontal li:hover>a{
+	background:green;
+}
+ 
+
+li{
+	list-style:none;
+	float:left;
+	margin-top:12px;
+}
+
+@media screen and (max-width:1100px){
+	div{
+	position:relative;
+	right:240px;
+	}
+}
+
+@media screen and (max-width:850px){
+	div{
+	position:relative;
+	right:380px;
+	}
+}
+
+@media screen and (max-width:690px){
+	div{
+	position:relative;
+	right:390px;
+	display:one;	
+	}
+	
+	.menu-horizontal{
+	width:400px;
+	height:30px;
+	padding:3px;
+	padding-bottom:10px;
+	}
+	
+	.menu-horizontal ul li{
+	margin-left:1px;	
+	}
+	
+	.menu-horizontal ul li a{
+	position:relative;
+	padding:1px;
+	font-size:14px;
+	color:black;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------s------Menú que aparece en el menú cuando se reduce la pantalla-----------------------*/
+
+
+.menu-secundario{
+	width:200px;
+	height:500px;
+	background:green;
+	display:one;
+}
+
+li{
+	margin:20px;
+	text-align:center;
+	
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+
+
+
+@media screen and (max-width:500px){
+	#menu-secundario{
+	position:relative;
+	right:800px;
+	display:block;	
+	}
+	
+	
+}
+
+
+
